@@ -16,7 +16,7 @@ type ButtonProps = TouchableOpacityProps & {
   isLoading?: boolean
 }
 
-const ThemeContext = createContext<{ variant?: Variants }>({}) // existe somente aqui, por isso não exporta
+const ThemeContext = createContext<{ variant?: Variants }>({})
 
 function Button({
   variant = "primary",
